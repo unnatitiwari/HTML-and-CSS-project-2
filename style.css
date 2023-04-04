@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.header{
+    
+    margin-top: 10px;
+    margin-left:25px;
+}
+.head{
+    display: flex;
+    gap: 40px;
+    
+}
+.list{
+    margin-top: 5px;
+    list-style:none;
+    display: flex;
+    gap: 30px;
+    font-size: small;
+}
+.buttonsmall{
+    margin-top: 5px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px ;
+    padding-bottom:10px;
+    font-size:10px;
+    background-color: #6d58b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    right: 0px;
+}
+
+.buttonlarge{
+    margin-top: 15px;
+    padding-top:5px;
+    padding-left:7px;
+    padding-right:7px ;
+    padding-bottom:5px;
+    font-size:10px;
+    background-color:#6d58b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.heropart{
+    display: flex;
+    margin-left: 25px;
+    
+}
+
+.leftpart{
+    margin-left:10px;
+    margin-top: 100px;
+
+}
+.rightpart{
+ position: fixed;
+ right:0px;bottom: 10px;
+}
+.heading{
+    color: #392d63;
+    font-size:50px;
+}
+span{
+    color: #6d58b9;
+}
+p{
+    margin-top: 15px;
+    font-size: 20px;
+}
